@@ -1,0 +1,78 @@
+
+*{
+  margin: 0;
+  padding: 0;
+}
+#blur-image{
+  display: block;
+
+  margin:0  auto;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 0;
+
+  /*css3*/
+  /*fillter方法：blur(X px), grayscale(0-1)灰度，sepia(0-1)黄棕色 saturate(num)饱和度 hue-rotate(0-360 deg)色相 invert(0-1)反色 opacity(0-1)不透明程度 brightness(0-1)明度 contrast(1%-100%)对比度 drop-shadow(x,x,x,颜色)*/
+  -webkit-filter: blur(20px);
+  -o-filter: blur(20px);
+  filter: blur(20px);
+
+}
+#blur-div{
+  overflow: hidden; 
+  margin:0  auto;
+  position: relative;
+}
+#canvas{
+  display: block;
+  margin: 0 auto;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 10;
+}
+
+.button{
+  display: block;
+  position: absolute;
+  z-index: 200;
+
+  width: 100px;
+  height: 30px;
+
+  color: white;
+  text-decoration: none;
+  text-align: center;
+  line-height: 30px;
+  border-radius: 5px;
+
+}
+
+#reset-button{
+  left: 50px;
+  bottom: 20px;
+  background: #058
+}
+#show-button{
+  right: 50px;
+  bottom: 20px;
+  background: #085
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
